@@ -41,4 +41,8 @@ Copyright (C) Microsoft Corporation. All rights reserved.
         </Link>
     </ItemDefinitionGroup>
 
+    <ItemGroup>
+        <ProjectCapability Include="CppWinRT" />
+    </ItemGroup>
+
 </Project>
