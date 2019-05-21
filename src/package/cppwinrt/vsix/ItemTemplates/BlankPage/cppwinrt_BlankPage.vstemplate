@@ -8,6 +8,7 @@
     <TemplateID>microsoft.Windows.CppWinRT.BlankPage</TemplateID>
     <Icon>cppwinrt.ico</Icon>
     <PreviewImage>cppwinrt.png</PreviewImage>
+    <AppliesTo>CppWinRT</AppliesTo>
   </TemplateData>
   <TemplateContent>
     <References />
