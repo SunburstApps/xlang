@@ -45,4 +45,8 @@ Copyright (C) Microsoft Corporation. All rights reserved.
         <ProjectCapability Include="CppWinRT" />
     </ItemGroup>
 
+    <ItemGroup>
+        <PropertyPageSchema Include="$(MSBuildThisFileDirectory)\CppWinrtRules.Project.xml" Context="Project" />
+    </ItemGroup>
+
 </Project>

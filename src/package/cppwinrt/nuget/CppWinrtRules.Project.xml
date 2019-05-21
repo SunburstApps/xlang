@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Rule Name="CppWinRT" DisplayName="C++/WinRT" Order="75" PageTemplate="generic" xmlns="http://schemas.microsoft.com/build/2009/properties">
+  <Rule.Categories>
+    <Category Name="General" DisplayName="General" />
+  </Rule.Categories>
+
+  <Rule.DataSource>
+    <DataSource Persistence="ProjectFile" HasConfigurationCondition="false" />
+  </Rule.DataSource>
+
+  <StringProperty Name="MidlDefaultNamespace"
+                  DisplayName="IDL default namespace"
+                  Description="Specifies the namespace to be used by default for new IDL files created in this project."
+                  Category="General" />
+</Rule>
